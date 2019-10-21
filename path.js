@@ -86,7 +86,7 @@ function redraw(timestamp) {
     for (let i = 0; i < w; i += w/64) {
       for (let j = 0; j < h; j += h/48) {
       //  context.fillStyle = rainbow(t/20 + /Math.sin/(12.75*i/w) + 8*j/h);
-        context.fillStyle = rainbow(t/40 + (0*i/w) + 3*j/h);
+        context.fillStyle = rainbow(t/420 + (0*i/w) + 3*j/h);
         context.beginPath();
         context.rect(i, j, w/64, h/48);
         context.fill();
